@@ -445,6 +445,15 @@
       "pluginName": "mattpocock-skills",
       "installedAt": "2026-07-25T11:58:57.323Z",
       "updatedAt": "2026-07-25T11:58:57.323Z"
+    },
+    "show-me": {
+      "source": "humanlayer/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/humanlayer/skills.git",
+      "skillPath": "plugins/show-me/skills/show-me/SKILL.md",
+      "skillFolderHash": "0bdb821a21e793a4f6f82a7078c052154447e5cc",
+      "installedAt": "2026-09-06T11:57:08.640Z",
+      "updatedAt": "2026-09-06T11:57:08.640Z"
     }
   },
   "dismissed": {
@@ -465,7 +474,6 @@
     "warp",
     "zed",
     "junie",
-    "qwen-code",
     "claude-code"
   ]
 }
