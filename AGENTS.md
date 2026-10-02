@@ -7,4 +7,7 @@
 - Prefer established, well-maintained libraries when they reduce overall complexity or improve reliability. Do not reimplement common functionality without a clear reason.
 - Lean on the dependencies already in the project before writing your own implementation or adding packages. Do not assume a library lacks a capability without checking its documentation and types.
 - Make architectural decisions for the long term. Do not accept a stopgap that only works for now and is meant to be replaced later.
-- Never `git commit`, `git push`, or create a PR without explicit consent in the current request. Asking for an implementation ("do the fix") authorizes code and tests only — finish, verify, report, then ask before publishing.
+- Never `git commit`, `git push`, or create a PR without explicit consent in the current request. Asking for an implementation ("do the fix") authorizes code and tests only; finish, verify, report, then ask before publishing.
+- Never work in worktree branches. Always work in the main branch.
+- Always save a plan file and tasks files in the project's local directory under ./.ai/plan for plans and ./.ai/tasks for tasks
+- Always save memory related to the project in project's local directory under ./.ai/memory/{related-topic-memory}.md
