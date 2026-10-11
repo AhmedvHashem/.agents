@@ -13,7 +13,6 @@ Apply these as project conventions, not claims that every platform officially pr
 
 Use this skill for requests such as:
 
-- “Structure a native app with violation reports and maintenance reports.”
 - “Where should this DTO, entity, repository, or preference live?”
 - “Split this feature into modules without introducing cycles.”
 - “Apply the same architecture to Android, iOS, and desktop.”
