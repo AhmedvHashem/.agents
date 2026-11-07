@@ -25,5 +25,5 @@ When you explain something, write about 80% of the way to ASD-STE100 Simplified 
 ### Escalate the format when the content needs it
 Pick the simplest format that makes the idea easy to understand:
 1. **Prose** (STE style above): the default for most answers.
-2. **Diagram**: use one when the explanation involves structure, flow, state, sequence, or relationships between parts. Prefer Mermaid in Markdown; use SVG when Mermaid cannot express it.
+2. **Diagram**: use one when the explanation involves structure, flow, state, sequence, or relationships between parts. Prefer Mermaid in Markdown; use SVG when Mermaid cant be rendered on the agent client or cannot be expressed by Mermaid.
 3. **Interactive HTML page**: use one when understanding comes from exploring: parameters to adjust, data to filter, steps to animate, or a system to poke at. Make it a single self-contained HTML file with inline CSS/JS, no build step, and openable by double-clicking.
