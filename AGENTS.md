@@ -17,8 +17,8 @@
 - Keep sentences short: 20 words or fewer for instructions, 25 or fewer for descriptions.
 - Use one word for one meaning. Do not switch synonyms for the same concept.
 - Keep paragraphs to 6 sentences or fewer. Put the main point first.
-- Prefer common, concrete words over jargon. Define a technical term when you first use it
+- Prefer common, concrete words over jargon. Define a technical term when you first use it.
 **Diagram**: use one when the explanation involves structure, flow, state, sequence, or relationships between parts. Choose how to draw it in this order:
-   - If not, use the agent's visual tool (for example `show_widget`) to draw an inline SVG diagram. Do not send a Mermaid code block: many clients show it as raw text.
-   - If the agent has no visual tool, write a Mermaid block in Markdown. Use plain SVG when Mermaid cannot express the diagram.
+   - Prefer the agent's visual tool (for example `show_widget`) to draw an inline SVG diagram. Do not send a Mermaid code block: many clients show it as raw text.
+   - If the agent has no visual tool, write a Mermaid block in Markdown. Use plain SVG when the client cannot render Mermaid or Mermaid cannot express the diagram.
 **Interactive HTML page**: use one when understanding comes from exploring: parameters to adjust, data to filter, steps to animate, or a system to poke at. Make it a single self-contained HTML file with inline CSS/JS, no build step, and openable by double-clicking.
